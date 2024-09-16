@@ -1,0 +1,14 @@
+[book]
+multilingual = false
+src = "src"
+title = "The rustc book"
+
+[output.html]
+git-repository-url = "https://github.com/RustLangES/rustc-book/tree/main/src"
+edit-url-template = "https://github.com/RustLangES/rustc-book/edit/main/src/{path}"
+
+[output.html.search]
+use-boolean-and = true
+
+[output.html.playground]
+runnable = false
